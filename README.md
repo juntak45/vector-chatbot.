@@ -1,10 +1,11 @@
 # Vector DB 기반 Q&A 챗봇
 
-ESTSoft 바이브코딩 인턴십 과제
+ESTSoft 인턴십 과제
 
 ## 배포 URL
 - **서비스**: https://vector-chatbot-git-main-juntaks-projects.vercel.app
-- **GitHub**: https://github.com/juntak45/vector-chatbot
+- **GitHub**: https://github.com/juntak45/vector-chatbot.
+
 
 ## 기술 스택
 
@@ -105,4 +106,3 @@ npx tsx scripts/reset-and-upload.ts
 ---
 
 **개발자**: 오준탁
-**개발 기간**: 2025년 11월
