@@ -1,9 +1,9 @@
 # Vector DB 기반 Q&A 챗봇
 
-ESTSoft 바이브코딩 인턴십 과제 - Hallucination 없는 정확한 답변 시스템
+ESTSoft 바이브코딩 인턴십 과제
 
 ## 배포 URL
-- **서비스**: [배포 후 URL 기입]
+- **서비스**: https://vector-chatbot-git-main-juntaks-projects.vercel.app
 - **GitHub**: https://github.com/juntak45/vector-chatbot
 
 ## 기술 스택
@@ -82,15 +82,15 @@ npx tsx scripts/reset-and-upload.ts
 **Request:**
 ```json
 {
-  "question": "바이브코딩 인턴 지원자격이 어떻게 되나요?"
+  "question": "Perso.ai는 어떤 서비스인가요?"
 }
 ```
 
 **Response:**
 ```json
 {
-  "answer": "바이브코딩 인턴 지원에는 별도의 자격요건이 없습니다...",
-  "source": "바이브코딩 인턴 지원자격이 어떻게 되나요?",
+  "answer": "Perso.ai는 이스트소프트가 개발한 다국어 AI 영상 더빙 플랫폼으로, 누구나 언어의 장벽 없이 영상을 제작하고 공유할 수 있도록 돕는 AI SaaS 서비스입니다.",
+  "source": "Perso.ai는 어떤 서비스인가요?",
   "confidence": 85.3
 }
 ```
@@ -106,4 +106,3 @@ npx tsx scripts/reset-and-upload.ts
 
 **개발자**: 오준탁
 **개발 기간**: 2025년 11월
-**기술 키워드**: Vector DB, RAG, Hallucination Prevention, Next.js, Pinecone, Gemini
