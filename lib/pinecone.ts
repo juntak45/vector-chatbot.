@@ -1,11 +1,7 @@
 import { Pinecone } from '@pinecone-database/pinecone';
-import * as dotenv from 'dotenv';
 
-// 환경변수 명시적으로 로드
-dotenv.config({ path: '.env.local' });
-
-console.log('Pinecone API Key:', process.env.PINECONE_API_KEY ? 'exists' : 'missing');
-console.log('Index Name:', process.env.PINECONE_INDEX_NAME);
+// Vercel에서는 환경변수가 자동으로 주입됨
+// 로컬에서는 Next.js가 .env.local을 자동으로 로드함
 
 if (!process.env.PINECONE_API_KEY) {
   throw new Error('PINECONE_API_KEY is not defined');
