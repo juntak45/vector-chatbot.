@@ -4,7 +4,7 @@ ESTSoft 인턴십 과제
 
 ## 배포 URL
 - **서비스**: https://vector-chatbot-git-main-juntaks-projects.vercel.app
-- **GitHub**: https://github.com/juntak45/vector-chatbot.
+- **GitHub**: <https://github.com/juntak45/vector-chatbot.>
 
 
 ## 기술 스택
